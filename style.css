@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('backround.jpg');
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+header h1 {
+    display: block;
+    font-size: 60px;
+    text-decoration: solid;
+}
+
+header h1 .Haslag {
+    color: red;
+}
+
+Header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: right;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h2{
+    position: absolute;
+    padding: 150px;
+    left: 0px;
+
+}
+
+a:hover {
+color: white;
+transition: .3s;
+}
+
+#mainbox{
+    border: solid black 3px;
+    height: 100%;
+    right: 50%;
+}
+#box4{
+    border: solid black 1px;
+    width: 50%;
+    height: 95%;
+    float: left;
+    margin: 5px;
+}
+#box1{
+    border: solid black 1px;
+    width: 23%;
+    height: 25%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+#box2,#box3{
+    border: solid black 1px;
+    width: 23;
+    height: 30%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+img {
+    border: 0;
+    width: 100%;
+}
+
+.vertical {
+    border-left: 4px solid black;
+    height: 100%;
+    position: absolute;
+    left: 35%;
+    top: 150px;
+
+}
